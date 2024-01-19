@@ -14,7 +14,7 @@ function findDigits(n) {
         if (digit !== 0 && n % digit === 0) {
             divisorCount++;
         }
-    }     
+    }      
     
     return divisorCount;
 }
